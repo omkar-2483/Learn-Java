@@ -1,7 +1,7 @@
 //write a program to create an ArrayList and perform following operations
 //1. add 2. remove 3. display 4. sort 5. reverse
 
-package assignment6;
+
 import java.util.ArrayList;  
 import java.util.Collections;  
 //Collections class include the sort() method for sorting lists alphabetically or numerically

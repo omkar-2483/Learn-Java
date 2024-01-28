@@ -1,4 +1,3 @@
-package problems;
 
 //Java program to initialize the values from one object to another object.  
 public class NewHello{  

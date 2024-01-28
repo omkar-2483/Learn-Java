@@ -3,7 +3,6 @@
 /*armstrong number is a number,which forms the total of same number
  when each of its digit is raised to the power of the number of digits in the number*/
 
-package problems;
 import java.lang.Math;
 public class ArmstrongNumber {
 	public static void main(String[] args) {

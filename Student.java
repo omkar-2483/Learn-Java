@@ -1,7 +1,7 @@
 /* WAP in java that calculate the grade of n students based on the marks
  entered by user in each subject */
 
-package assignment1;
+
 
 import java.util.*;
 

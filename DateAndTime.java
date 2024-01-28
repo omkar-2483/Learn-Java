@@ -1,5 +1,5 @@
 /* write a program to display current date and time of system*/
-package problems;
+
 import java.time.LocalTime;
 import java.time.LocalDate;
 public class DateAndTime {
