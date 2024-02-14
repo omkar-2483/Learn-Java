@@ -15,6 +15,7 @@ abstract class Bank{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter "+name+"'s Amount of Loan : ");
 		loanAmount=sc.nextDouble();
+		sc.close();
 	}
 	abstract void getRateOfInterest(String name);  //abstract method
 	

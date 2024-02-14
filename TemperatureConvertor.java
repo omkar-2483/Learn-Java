@@ -19,5 +19,6 @@ public class TemperatureConvertor {
 		tempInCelsius=(tempInFahrenheit-32)*5/9;
 		System.out.print("Enter Temperature in Degree Celsius: ");
 		System.out.println(tempInCelsius+" °C");
+		sc.close();
 	}
 }

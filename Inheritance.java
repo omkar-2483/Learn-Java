@@ -33,7 +33,6 @@ class Computer_Engg
 		hobbies=sc.next();
 	}
 	
-	
 }
 
 class Student extends Computer_Engg
@@ -100,5 +99,6 @@ public class Inheritance
 		}
 		
 		System.out.println("----------------------------END------------------------------");
+		sc.close();
 	}
 }

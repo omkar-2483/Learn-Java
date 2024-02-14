@@ -44,6 +44,7 @@ public class Covid{
 		//id++; //already incremented in constructor
 		patientId=id;
 		System.out.println("ID of patient is : "+patientId);
+		sc.close();
 	}
 	
 	//method to display data
@@ -118,5 +119,6 @@ public class Covid{
 	    	}while(l.equals("y"));
 	    }
 	    System.out.println(".........................END...........................");
+		sc.close();
 	 }
 }

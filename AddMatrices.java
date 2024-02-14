@@ -73,5 +73,6 @@ public class AddMatrices {
 		System.out.println("sum of matrix: ");
 		matrix3.displayMat();
 	
+		sc.close();
 	}
 }

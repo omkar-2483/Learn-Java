@@ -28,7 +28,9 @@ class StudentGrade{
 		marks[3]=sc.nextInt();
 		System.out.print("Enter marks of FDS: ");
 		marks[4]=sc.nextInt();
+		sc.close();
 	}
+	
 	void calAvg(int s) {
 		int total=0;
 		for(int i=0;i<5;i++)
@@ -53,6 +55,7 @@ class StudentGrade{
 		}
 	}
 	
+	
 }
 
 
@@ -74,5 +77,6 @@ public class Student {
 		    System.out.println("\n--------------------------------------------------------------------------");
 		}
 		System.out.println("------------End-------------------------");
+		sc.close();
 	}
 }
