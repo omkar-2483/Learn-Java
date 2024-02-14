@@ -10,6 +10,10 @@ class OctalHexadecimal{
         int num2=0X10-0X1;
         System.out.println(num2);
         int num3=0b1010;
-        System.out.print(num3);
+        System.out.println(num3);
+        int num4=123_456_789;
+        System.out.println(num4);
+        float num5=2E2f;
+        System.out.println(num5);
     }
 }
